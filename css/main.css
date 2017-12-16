@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+body {
+   padding-top: 76px;
+ }
+ .navbar-header{
+   padding-bottom: 25px;
+ }
+ .nav{
+   height: 100%;
+ }
+.navbar-brand{
+  padding: 17px;
+}
+.logo{
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  color: #F08080;
+}
+main .container{
+  background-image: url(../assets/images/violencia.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:bottom;
+  height: 30em;
+}
+.content-information-main{
+  padding: 1em;
+  background-color: #F08080;
+  border: none;
+  outline: none;
+  text-align:left;
+  margin-top: 12em;
+  color: white;
+}
+.content-information-main img{
+  display: inline;
+  width: 5em;
+}
+.content-information-main button{
+  display: block;
+  margin-top: 1em;
+  font-weight: bolder;
+  border: none;
+}
+.desktop-main{
+  display: none;
+}
+.information{
+  background-color: #F08080;
+  color: white;
+  padding: 2em;
+}
+.information img{
+  width: 100%;
+  height: auto;
+}
+article img{
+  width: 100%;
+}
+.blog h2{
+background-color:
+#F08080;
+padding-left: 1em;
+margin-bottom: 0;
+margin-top: 0;
+padding-top: 0.5em;
+padding-bottom: 0.5em;
+font-family:cursive;
+color: white;
+}
