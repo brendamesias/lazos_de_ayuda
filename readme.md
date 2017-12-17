@@ -15,13 +15,13 @@ ___
 
 #### Desarrolado con:
 - HTML.
-2. CSS.
-3. Bootstrap.
-4. Balsamic.
+- CSS.
+- Bootstrap.
+- Balsamic.
 ___
 #### Creditos
 - Yanina Mercado
-2. Elena Japa
-3. Ricardo Puma
-4. Yohanna
-5. Estephanie Frias
+- Elena Japa
+- Ricardo Puma
+- Yohanna
+- Estephanie Frias
