@@ -7,8 +7,8 @@
     <title>prueba bootstrap</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/d8be9de720/UntitledProject/style.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
@@ -36,14 +36,24 @@
               <a href="blog.html">Blog violencia de genero</a>
             </li>
             <li>
-              <a>Preguntas frecuentes</a>
+              <a href="preguntas.html">Preguntas frecuentes</a>
             </li>
-            <li>
-              <a>Registrate</a>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registrate
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">Busco ayuda</a>
+                </li>
+                <li>
+                  <a data-toggle="modal" data-target="#aviso_brindo_ayuda" data-whatever="@mdo">Quiero brindar ayuda</a>
+                </li>
+              </ul>
             </li>
-            <li>
-              <a data-toggle="modal" data-target="#iniciar_sesion" data-whatever="@mdo">Inicia Sesión</a>
-            </li>
+          <li>
+            <a data-toggle="modal" data-target="#iniciar_sesion" data-whatever="@mdo">Inicia Sesión</a>
+          </li>
           </ul>
         </div>
       </div>
@@ -70,6 +80,169 @@
         <img src="assets/images/feliz.jpeg" alt="video">
       </div>
     </section>
+
+    <aside class="quieres_ayudar">
+      <div class="container-fluid">
+        <div class="brinda_ayuda">
+          <h4>¿Eres profesional y te interesa ayudar a mujeres victimas de violencia domestica?</h4>
+          <p>Lazos de ayuda es una plataforma en la que puedes encontrar mujeres violentadas y ayudarlas a superar ésta dificl etapa. <br> <br>!AYUDANOS A AYUDAR¡</p>
+        </div>
+      </div>
+    </aside>
+
+    <!--modal Inicia sesion-->
+    <div class="modal fade" id="iniciar_sesion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content sesion">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="exampleModalLabel">Iniciar sesion</h4>
+          </div>
+          <div class="user">
+            <img src="assets/images/user.png" alt="user">
+          </div>
+          <form class="user-password">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input id="email" type="text" class="form-control" name="email" placeholder="Username">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+              <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+            </div>
+            <div class="loging">
+              <button type="button" class="btn btn-warning">LOGING</button>
+            </div>
+            <div class="forgot_password">
+              <span>Forgot password? </span><a class="clickhere" href="#"> Click here</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--modal aviso registro - brindo ayuda-->
+    <div class="modal fade" id="aviso_brindo_ayuda" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content aviso_brindo_ayuda">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="exampleModalLabel">Aviso</h4>
+          </div>
+          <div class="text_aviso_brindo_ayuda">
+            <p>
+              Para formar parte de la red de profesionales de "Lazos de Ayuda" se necesitan los sgtes. requisitos mínimos <br>1. Ser profesional colegiado <br>2. Tener un minimo de 3 años de experiencia
+            </p>
+          </div>
+          <div class="loging">
+            <button type="button" class="btn btn-default"><a data-toggle="modal" data-target="#registro_profesional" data-whatever="@mdo">Cumplo con los requisitos</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--modal-formulario de registro de profesional-->
+    <div class="modal fade" id="registro_profesional" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content formulario_profesional">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="exampleModalLabel">facilita tus datos con:</h4>
+            <span class="icon-google2"></span>
+            <span class="icon-linkedin"></span>
+          </div>
+          <form class="form-horizontal" action="/action_page.php">
+            <div class="ingresar_foto">
+              <h4>Photo</h4>
+              <img class="user_photo" src="assets/images/user.png" alt="user">
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="email">Nombres:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="pwd">Apellidos:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="pwd" placeholder="Apellidos">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="pwd">Pofesion:</label>
+              <div class="col-sm-10">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Select
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a>Psicólogo</a>
+                    </li>
+                    <li>
+                      <a>Abogado</a>
+                    </li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="pwd">Colegiatura:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="pwd" placeholder="Colegiatura">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="pwd">Universidad</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="pwd" placeholder="Universidad">
+              </div>
+            </div>
+            <span>¿Tienes experiencia en...?</span>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label><input type="checkbox"> ONGs</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label><input type="checkbox"> Demuna</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label><input type="checkbox"> Centro de Asistencia Mujer CEM</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label><input type="checkbox"> Otros</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="pwd" placeholder="Otros">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group write_motivation">
+              <label for="comment">¿Cúal es tu motivación para formar parte de esta red de ayuda?</label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Crear</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

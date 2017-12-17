@@ -56,8 +56,20 @@ main .container{
   width: 100%;
   height: auto;
 }
+article{
+  padding: 0 1.5em 0 0.5em;
+  font-weight:lighter;
+}
+.articulo2, .articulo4{
+  background-color: #F08080;
+}
+.articulo1, .articulo2, .articulo3, .articulo4, .articulo5{
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
 article img{
   width: 100%;
+  padding-bottom: 1em;
 }
 .blog h2{
 background-color:
@@ -67,6 +79,72 @@ margin-bottom: 0;
 margin-top: 0;
 padding-top: 0.5em;
 padding-bottom: 0.5em;
-font-family:cursive;
+font-family: 'Pacifico', cursive;
 color: white;
+}
+/*modal iniciar_sesion*/
+.sesion{
+  background-color:
+#F08080;
+}
+.navbar a{
+  cursor: pointer;
+}
+.user{
+  text-align: center;
+}
+.user-password{
+  background-color: #F5F5F5;
+  margin: 0 3em 1em 3em;
+  border-radius: 10px;
+  padding-top: 1em
+}
+.user img{
+  width: 15em;
+  height: auto;
+  padding: 2em;
+}
+.input-group{
+  padding: 0.5em 1em 0.5em 1em;
+}
+.loging{
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.clickhere{
+  text-decoration: none;
+  color: #B1355E;
+}
+.forgot_password{
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+.text_aviso_brindo_ayuda{
+  padding: 1em;
+}
+.formulario_profesional{
+  padding: 1em;
+}
+.write_motivation{
+  padding: 2em;
+}
+.user_photo{
+  width: 40%;
+}
+.ingresar_foto{
+  text-align: center;
+}
+aside .container-fluid{
+  background-image: url(../assets/images/ayuda.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:bottom;
+  height: 20em;
+}
+.brinda_ayuda{
+  padding: 1em;
+  background:rgba(0,0,0,0.4);
+  color: white;
+  margin-left: 0;
 }
