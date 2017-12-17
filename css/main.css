@@ -23,7 +23,7 @@ main .container{
   background-repeat: no-repeat;
   background-size:cover;
   background-position:bottom;
-  height: 30em;
+  height: 34em;
 }
 .content-information-main{
   padding: 1em;
@@ -160,6 +160,10 @@ aside img{
   width: 100%;
   height: auto;
   padding-bottom: 1em;
+}
+.brinda_ayuda{
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 .brinda_ayuda span{
   font-size: 17px;
