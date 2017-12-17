@@ -177,3 +177,47 @@ footer{
   padding-top: 1em;
   padding-bottom: 1em;
 }
+.boton_balsamiq input{
+  border-radius: 7px;
+  border: none;
+  background-color: #1ABC9C;
+  color: white;
+  padding: 0.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+ .perfi-busco-ayuda input{
+  position: relative;
+  bottom: 22.6em;
+  left: 12.8em;
+}
+ .testimonios input{
+  position: relative;
+  bottom: 12em;
+  left: 17em;
+}
+.chat1 input{
+  position: relative;
+  bottom: 16.3em;
+  left: 6em;
+  padding: 0.3em;
+}
+.chat2 input{
+  position: relative;
+  bottom: 14.3em;
+  left: 6em;
+  padding: 0.3em;
+}
+.chat3 input{
+  position: relative;
+  bottom: 12.3em;
+  left: 6em;
+  padding: 0.3em;
+}
+.ver_perfil input{
+  position: relative;
+  bottom: 12.5em;
+  left: 17em;
+  padding-left: 1em;
+  padding-right: 1em;
+}

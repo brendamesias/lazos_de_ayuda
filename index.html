@@ -33,18 +33,18 @@
               <a href="#quienes-somos">¿Quiénes somos?</a>
             </li>
             <li>
-              <a href="blog.html">Blog violencia de genero</a>
+              <a href="blog.html">Blog violencia de género</a>
             </li>
             <li>
               <a href="preguntas.html">Preguntas frecuentes</a>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registrate
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Regístrate
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a href="#">Busco ayuda</a>
+                  <a href="registro-busco-ayuda.html">Busco ayuda</a>
                 </li>
                 <li>
                   <a data-toggle="modal" data-target="#aviso_brindo_ayuda" data-whatever="@mdo">Quiero brindar ayuda</a>
@@ -52,7 +52,7 @@
               </ul>
             </li>
           <li>
-            <a data-toggle="modal" data-target="#iniciar_sesion" data-whatever="@mdo">Inicia Sesión</a>
+            <a data-toggle="modal" data-target="#iniciar_sesion" data-whatever="@mdo" href="perfil-busco-ayuda.html">Inicia sesión</a>
           </li>
           </ul>
         </div>
@@ -67,7 +67,7 @@
             <!--en el caso la pnatalla esté en movile mostrar el siguiente div-->
             <div class="movile-main">
               <h2>Buscas ayuda profesional?</h2>
-              <button type="button" class="btn btn-default">Registrate</button>
+                <button type="button" class="btn btn-default"><a href="registro-busco-ayuda.html">Regístrate</a></button>
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@
     <section class="information"  id="quienes-somos">
       <div class="container-fluid">
         <h3>¿Quiénes somos?</h3>
-        <p>Somos una plataforma virtual que facilita a las mujeres victimas de violencia domestica, el contacto con los profesionales que necesitan (psicólogos, abogados, etc) para que puedan superar el dificl momento por el que estan pasando.</p>
+        <p>Somos una plataforma virtual que facilita a las mujeres víctimas de violencia doméstica, el contacto con los profesionales que necesitan (psicólogos, abogados y otros) para que puedan superar el dificil momento por el que están pasando.</p>
         <img src="assets/images/feliz.jpeg" alt="video">
       </div>
     </section>
@@ -86,8 +86,8 @@
       <div class="container-fluid">
         <div class="row">
           <div class="brinda_ayuda">
-            <span>¿Eres profesional y te interesa ayudar a mujeres victimas de violencia domestica?</span>
-            <p>Lazos de ayuda es una plataforma en la que puedes encontrar mujeres violentadas y ayudarlas a superar ésta dificl etapa. <br> <br>!AYUDANOS A AYUDAR¡</p>
+            <span>¿Eres profesional y te interesa ayudar a mujeres víctimas de violencia doméstica?</span>
+            <p>Lazos de ayuda es una plataforma en la que puedes encontrar mujeres violentadas y ayudarlas a superar esta dificl etapa. <br> <br>¡AYUDANOS A AYUDAR</p>
             <img src="assets/images/ayuda.jpg" alt="ayuda">
           </div>
         </div>
@@ -111,7 +111,7 @@
         <div class="modal-content sesion">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="exampleModalLabel">Iniciar sesion</h4>
+            <h4 class="modal-title" id="exampleModalLabel">Iniciar sesión</h4>
           </div>
           <div class="user">
             <img src="assets/images/user.png" alt="user">
@@ -126,10 +126,10 @@
               <input id="password" type="password" class="form-control" name="password" placeholder="Password">
             </div>
             <div class="loging">
-              <button type="button" class="btn btn-warning">LOGING</button>
+              <button type="button" class="btn btn-warning"><a href="perfil-busco-ayuda.html">LOGIN</a></button>
             </div>
             <div class="forgot_password">
-              <span>Forgot password? </span><a class="clickhere" href="#"> Click here</a>
+              <span>¿Olvidaste tu contraseña? </span><a class="clickhere" href="#">Ingresa aquí</a>
             </div>
           </form>
         </div>
@@ -137,6 +137,7 @@
     </div>
 
     <!--modal aviso registro - brindo ayuda-->
+
     <div class="modal fade" id="aviso_brindo_ayuda" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content aviso_brindo_ayuda">
@@ -162,13 +163,13 @@
         <div class="modal-content formulario_profesional">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="exampleModalLabel">facilita tus datos con:</h4>
+            <h4 class="modal-title" id="exampleModalLabel">Facilita tus datos con:</h4>
             <span class="icon-google2"></span>
             <span class="icon-linkedin"></span>
           </div>
           <form class="form-horizontal" action="/action_page.php">
             <div class="ingresar_foto">
-              <h4>Photo</h4>
+              <h4>Foto</h4>
               <img class="user_photo" src="assets/images/user.png" alt="user">
             </div>
             <div class="form-group">
@@ -184,7 +185,7 @@
               </div>
             </div>
             <div class="form-group">
-              <label class="control-label col-sm-2" for="pwd">Pofesion:</label>
+              <label class="control-label col-sm-2" for="pwd">Profesión:</label>
               <div class="col-sm-10">
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Select
